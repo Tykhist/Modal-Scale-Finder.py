@@ -1,0 +1,117 @@
+#scales dictionary
+#try numbers for the keys, and make the values "scale name: " + [note list]
+#or just use scales[#] for each key
+scales = {
+	"C Ionian (Major Scale)(I)": ['C', 'D', 'E', 'F', 'G', 'A', 'B'],
+	"C Dorian (II)": ['', '', '', '', '', '', ''],
+	"C Phrygian (III)": ['', '', '', '', '', '', ''],
+	"C Lydian (IV)": ['', '', '', '', '', '', ''],
+	"C Mixolydian (V)": ['', '', '', '', '', '', ''],
+	"C Aeolian (Minor Scale) (VI)": ['C', 'D', 'D#', 'F', 'G', 'G#', 'A#'],
+	"C Locrian (VII)": ['', '', '', '', '', '', ''],
+
+	"C# Ionian (Major Scale)(I)": ['C#', 'D#', 'E#', 'F#', 'G#', 'A#', 'B#'],
+	"C# Dorian (II)": ['C#', 'D#', 'E', 'F#', 'G#', 'A#', 'B'],
+	"C# Phrygian (III)": ['C#', 'D', 'E', 'F#', 'G#', 'A', 'B'],
+	"C# Lydian (IV)": ['', '', '', '', '', '', ''],
+	"C# Mixolydian (V)": ['', '', '', '', '', '', ''],
+	"C# Aeolian (Minor Scale) (VI)": ['C#', 'D#', 'E', 'F#', 'G', 'A', 'B'],
+	"C# Locrian (VII)": ['C#', 'D', 'E', 'F#', 'G', 'A', 'B'],
+
+	"D Ionian (Major Scale)(I)": ['D', 'E', 'F#', 'G', 'A', 'B', 'C#'],
+	"D Dorian (II)": ['D', 'E', 'F', 'G', 'A', 'B', 'C'],
+	"D Phrygian (III)": ['', '', '', '', '', '', ''],
+	"D Lydian (IV)": ['', '', '', '', '', '', ''],
+	"D Mixolydian (V)": ['', '', '', '', '', '', ''],
+	"D Aeolian (Minor Scale) (VI)": ['D', 'E', 'F', 'G', 'A', 'A#', 'C'],
+	"D Locrian (VII)": ['', '', '', '', '', '', ''],
+
+	"D# Ionian (Major Scale)(I)": ['', '', '', '', '', '', ''],
+	"D# Dorian (II)": ['D#', 'E#', 'F#', 'G#', 'A#', 'B#', 'C#'],
+	"D# Phrygian (III)": ['D#', 'E', 'F#', 'G#', 'A#', 'B', 'C#'],
+	"D# Lydian (IV)": ['', '', '', '', '', '', ''],
+	"D# Mixolydian (V)": ['', '', '', '', '', '', ''],
+	"D# Aeolian (Minor Scale) (VI)": ['', '', '', '', '', '', ''],
+	"D# Locrian (VII)": ['D#', 'E', 'F#', 'G#', 'A', 'B', 'C#'],
+
+	"E Ionian (Major Scale)(I)": ['E', 'F#', 'G#', 'A', 'B', 'C#', 'D#'],
+	"E Dorian (II)": ['E', 'F#', 'G', 'A', 'B', 'C#', 'D'],
+	"E Phrygian (III)": ['E', 'F', 'G', 'A', 'B', 'C', 'D'],
+	"E Lydian (IV)": ['', '', '', '', '', '', ''],
+	"E Mixolydian (V)": ['', '', '', '', '', '', ''],
+	"E Aeolian (Minor Scale) (VI)": ['E', 'F#', 'G', 'A', 'B', 'C', 'D'],
+	"E Locrian (VII)": ['', '', '', '', '', '', ''],
+
+	"F Ionian (Major Scale)(I)": ['F', 'G', 'A', 'A#', 'C', 'D', 'E'],
+	"F Dorian (II)": ['', '', '', '', '', '', ''],
+	"F Phrygian (III)": ['', '', '', '', '', '', ''],
+	"F Lydian (IV)": ['F', 'G', 'A', 'B', 'C', 'D', 'E'],
+	"F Mixolydian (V)": ['', '', '', '', '', '', ''],
+	"F Aeolian (Minor Scale) (VI)": ['F', 'G', 'G#', 'A#', 'C', 'C#', 'D#'],
+	"F Locrian (VII)": ['', '', '', '', '', '', ''],
+
+	"F# Ionian (Major Scale)(I)": ['F#', 'G#', 'A#', 'B', 'C#', 'D#', 'E#'],
+	"F# Dorian (II)": ['F#', 'G#', 'A', 'B', 'C#', 'D#', 'E'],
+	"F# Phrygian (III)": ['F#', 'G', 'A', 'B', 'C#', 'D', 'E'],
+	"F# Lydian (IV)": ['', '', '', '', '', '', ''],
+	"F# Mixolydian (V)": ['', '', '', '', '', '', ''],
+	"F# Aeolian (Minor Scale) (VI)": ['F#', 'G#', 'A', 'B', 'C#', 'D', 'E'],
+	"F# Locrian (VII)": ['F#', 'G', 'A', 'B', 'C', 'D', 'E'],
+
+	"G Ionian (Major Scale)(I)": ['G', 'A', 'B', 'C', 'D', 'E', 'F#'],
+	"G Dorian (II)": ['', '', '', '', '', '', ''],
+	"G Phrygian (III)": ['', '', '', '', '', '', ''],
+	"G Lydian (IV)": ['', '', '', '', '', '', ''],
+	"G Mixolydian (V)": ['G', 'A', 'B', 'C', 'D', 'E', 'F'],
+	"G Aeolian (Minor Scale) (VI)": ['G', 'A', 'A#', 'C', 'D', 'D#', 'F'],
+	"G Locrian (VII)": ['', '', '', '', '', '', ''],
+
+	"G# Ionian (Major Scale)(I)": ['', '', '', '', '', '', ''],
+	"G# Dorian (II)": ['G#', 'A#', 'B', 'C#', 'D#', 'E#', 'F#'],
+	"G# Phrygian (III)": ['G#', 'A', 'B', 'C#', 'D#', 'E', 'F#'],
+	"G# Lydian (IV)": ['', '', '', '', '', '', ''],
+	"G# Mixolydian (V)": ['', '', '', '', '', '', ''],
+	"G# Aeolian (Minor Scale) (VI)": ['G#', 'A#', 'B', 'C#', 'D#', 'E', 'F#'],
+	"G# Locrian (VII)": ['G#', 'A', 'B', 'C#', 'D', 'E', 'F#'],
+
+	"A Ionian (Major Scale)(I)": ['A', 'B', 'C#', 'D', 'E', 'F#', 'G#'],
+	"A Dorian (II)": ['A', 'B', 'C', 'D', 'E', 'F#', 'G'],
+	"A Phrygian (III)": ['', '', '', '', '', '', ''],
+	"A Lydian (IV)": ['', '', '', '', '', '', ''],
+	"A Mixolydian (V)": ['', '', '', '', '', '', ''],
+	"A Aeolian (Minor Scale) (VI)": ['A', 'B', 'C', 'D', 'E', 'F', 'G'],
+	"A Locrian (VII)": ['', '', '', '', '', '', ''],
+
+	"A# Ionian (Major Scale)(I)": ['', '', '', '', '', '', ''],
+	"A# Dorian (II)": ['', '', '', '', '', '', ''],
+	"A# Phrygian (III)": ['', '', '', '', '', '', ''],
+	"A# Lydian (IV)": ['', '', '', '', '', '', ''],
+	"A# Mixolydian (V)": ['', '', '', '', '', '', ''],
+	"A# Aeolian (Minor Scale) (VI)": ['', '', '', '', '', '', ''],
+	"A# Locrian (VII)": ['A#', 'B', 'C#', 'D#', 'E', 'F#', 'G#'],
+
+	"B Ionian (Major Scale)(I)": ['B', 'C#', 'D#', 'E', 'F#', 'G#', 'A#'],
+	"B Dorian (II)": ['B', 'C#', 'D', 'E', 'F#', 'G#', 'A'],
+	"B Phrygian (III)": ['B', 'C', 'D', 'E', 'F#', 'G', 'A'],
+	"B Lydian (IV)": ['', '', '', '', '', '', ''],
+	"B Mixolydian (V)": ['', '', '', '', '', '', ''],
+	"B Aeolian (Minor Scale) (VI)": ['B', 'C#', 'D', 'E', 'F#', 'G', 'A'],
+	"B Locrian (VII)": ['B', 'C', 'D', 'E', 'F', 'G', 'A']
+}
+#for now I am using all sharps, but I eventually want to also add flats e.g. "D#/Eb"
+'''maybe even an option between default (flat or sharp depending on context),
+all sharps, all flats or both, and whether or not to have double flats/sharp'''
+
+'''This part is intended to list the Scale options for the user, 
+incase they already know what they want and just need a refresher'''
+#The user can also type "menu" to have all the scale options listed
+menu = scales.keys()
+
+
+
+#if/then statements and inputs, or whatever I need to make a search bar
+#I want there to be up to 7 inputs connected by and, with a break in them if nothing is input
+#if input length is over 2 characters, only 1 input (for if the user inputs a specific scale)
+ui = input()
+if ui in scales[""]:
+	print scales[0]
