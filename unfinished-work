@@ -112,6 +112,7 @@ menu = scales.keys()
 #if/then statements and inputs, or whatever I need to make a search bar
 #I want there to be up to 7 inputs connected by and, with a break in them if nothing is input
 #if input length is over 2 characters, only 1 input (for if the user inputs a specific scale)
-ui = input()
-if ui in scales[""]:
-	print scales[0]
+
+def search_bar(input(ui)):
+	if ui ==  in scales[""]:
+		print scales[0]
