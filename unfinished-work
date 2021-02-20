@@ -2,29 +2,29 @@
 #try numbers for the keys, and make the values "scale name: " + [note list]
 #or just use scales[#] for each key
 scales = {
-	"C Ionian (Major Scale)(I)": ['C', 'D', 'E', 'F', 'G', 'A', 'B'],
-	"C Dorian (II)": ['C', 'D', 'D#', 'F', 'G', 'A', 'A#'],
-	"C Phrygian (III)": ['C', 'C#', 'D#', 'F', 'G', 'G#', 'A#'],
-	"C Lydian (IV)": ['C', 'D', 'E', 'F#', 'G', 'A', 'B'],
-	"C Mixolydian (V)": ['C', 'D', 'E', 'F', 'G', 'A', 'A#'],
-	"C Aeolian (Minor Scale) (VI)": ['C', 'D', 'D#', 'F', 'G', 'G#', 'A#'],
-	"C Locrian (VII)": ['C', 'C#', 'D#', 'F', 'F#', 'G#', 'A#'],
+	"C Ionian (Major Scale)": ['C', 'D', 'E', 'F', 'G', 'A', 'B'],
+	"C Dorian": ['C', 'D', 'D#', 'F', 'G', 'A', 'A#'],
+	"C Phrygian": ['C', 'C#', 'D#', 'F', 'G', 'G#', 'A#'],
+	"C Lydian": ['C', 'D', 'E', 'F#', 'G', 'A', 'B'],
+	"C Mixolydian": ['C', 'D', 'E', 'F', 'G', 'A', 'A#'],
+	"C Aeolian (Minor Scale)": ['C', 'D', 'D#', 'F', 'G', 'G#', 'A#'],
+	"C Locrian": ['C', 'C#', 'D#', 'F', 'F#', 'G#', 'A#'],
 
-	"C# Ionian (Major Scale)(I)": ['C#', 'D#', 'F', 'F#', 'G#', 'A#', 'C'],
-	"C# Dorian (II)": ['C#', 'D#', 'E', 'F#', 'G#', 'A#', 'B'],
-	"C# Phrygian (III)": ['C#', 'D', 'E', 'F#', 'G#', 'A', 'B'],
-	"C# Lydian (IV)": ['C#', 'D#', 'F', 'G', 'G#', 'A#', 'C'],
-	"C# Mixolydian (V)": ['C#', 'D#', 'F', 'F#', 'G#', 'A#', 'B'],
-	"C# Aeolian (Minor Scale) (VI)": ['C#', 'D#', 'E', 'F#', 'G', 'A', 'B'],
-	"C# Locrian (VII)": ['C#', 'D', 'E', 'F#', 'G', 'A', 'B'],
+	"C# Ionian (Major Scale)": ['C#', 'D#', 'F', 'F#', 'G#', 'A#', 'C'],
+	"C# Dorian": ['C#', 'D#', 'E', 'F#', 'G#', 'A#', 'B'],
+	"C# Phrygian": ['C#', 'D', 'E', 'F#', 'G#', 'A', 'B'],
+	"C# Lydian": ['C#', 'D#', 'F', 'G', 'G#', 'A#', 'C'],
+	"C# Mixolydian": ['C#', 'D#', 'F', 'F#', 'G#', 'A#', 'B'],
+	"C# Aeolian (Minor Scale)": ['C#', 'D#', 'E', 'F#', 'G', 'A', 'B'],
+	"C# Locrian": ['C#', 'D', 'E', 'F#', 'G', 'A', 'B'],
 
-	"D Ionian (Major Scale)(I)": ['D', 'E', 'F#', 'G', 'A', 'B', 'C#'],
-	"D Dorian (II)": ['D', 'E', 'F', 'G', 'A', 'B', 'C'],
-	"D Phrygian (III)": ['D', 'D#', 'F', 'G', 'A', 'A#', 'C'],
-	"D Lydian (IV)": ['D', 'E', 'F#', 'G#', 'A', 'B', 'C#'],
-	"D Mixolydian (V)": ['D', 'E', 'F#', 'G', 'A', 'B', 'C'],
-	"D Aeolian (Minor Scale) (VI)": ['D', 'E', 'F', 'G', 'A', 'A#', 'C'],
-	"D Locrian (VII)": ['D', 'D#', 'F', 'G', 'G#', 'A#', 'C'],
+	"D Ionian (Major Scale)": ['D', 'E', 'F#', 'G', 'A', 'B', 'C#'],
+	"D Dorian": ['D', 'E', 'F', 'G', 'A', 'B', 'C'],
+	"D Phrygian": ['D', 'D#', 'F', 'G', 'A', 'A#', 'C'],
+	"D Lydian": ['D', 'E', 'F#', 'G#', 'A', 'B', 'C#'],
+	"D Mixolydian": ['D', 'E', 'F#', 'G', 'A', 'B', 'C'],
+	"D Aeolian (Minor Scale)": ['D', 'E', 'F', 'G', 'A', 'A#', 'C'],
+	"D Locrian": ['D', 'D#', 'F', 'G', 'G#', 'A#', 'C'],
 
 	"D# Ionian (Major Scale)(I)": ['D#', 'F', 'G', 'G#', 'A#', 'C', 'D'],
 	"D# Dorian (II)": ['D#', 'F', 'F#', 'G#', 'A#', 'C', 'C#'],
@@ -114,5 +114,16 @@ menu = scales.keys()
 #if input length is over 2 characters, only 1 input (for if the user inputs a specific scale)
 
 def search_bar(input(ui)):
-	if ui ==  in scales[""]:
-		print scales[0]
+	if ui == menu:
+		for i in scales:
+			print i
+			
+	elif ui.len() == 1 or ui.len() == 2:
+		for x in scales.value():
+			if ui in x:
+				print x
+			break
+			
+	elif ui == scales.keys:
+		print scales[ui]
+	
