@@ -104,14 +104,21 @@ all sharps, all flats or both, and whether or not to have double flats/sharp'''
 
 '''This part is intended to list the Scale options for the user, 
 incase they already know what they want and just need a refresher'''
-#The user can also type "menu" to have all the scale options listed
-menu = scales.keys()
+#The user can also type "menu" to have all the scale options listed edit: they will be asked for a menu instead
 
+menu = scales.keys()
+show_menu = input('Show menu? Y/N: ')
+if show_menu == 'Y':
+	print(menu)
+else:
+	print('What scale are you looking for?')
 
 
 #if/then statements and inputs, or whatever I need to make a search bar
 #I want there to be up to 7 inputs connected by and, with a break in them if nothing is input
 #if input length is over 2 characters, only 1 input (for if the user inputs a specific scale)
-ui = input()
-if ui in scales[""]:
-	print scales[0]
+
+user_input = input('Enter scale name: ')
+if user_input in scales[""]:
+	print(', '.join(scales[0]) #still not sure on how printing will work, but results will be linked with commas instead of being a list
+	
